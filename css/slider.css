@@ -1,0 +1,91 @@
+.lSSlideOuter .lSPager.lSpg > li.active a,
+.lSSlideOuter .lSPager.lSpg > li:hover a {
+  background-color: #f90 !important;
+}
+.lSSlideOuter .lSPager.lSpg > li a {
+  background-color: #fff !important;
+}
+#portfolio .slider {
+  width: 100vw;
+  margin: 20px auto;
+}
+#portfolio .slider .item {
+  margin-bottom: 60px;
+}
+#portfolio .slider .content-slider {
+  list-style: none outside none;
+  padding-left: 0;
+  margin: 0;
+}
+#portfolio .slider .content-slider.cs-hidden {
+  height: 1px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  overflow: hidden;
+}
+#portfolio .slider .content-slider li {
+  position: relative;
+  width: 320px;
+  height: 180px;
+  text-align: center;
+  color: #FFF;
+}
+#portfolio .slider .content-slider li a img {
+  width: 300px;
+  height: 168px;
+  margin: 5px auto 0;
+  -webkit-box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+#portfolio .slider .content-slider li a .overlay {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+  bottom: 7px;
+  left: 10px;
+  position: absolute;
+  width: 300px;
+  height: 0;
+  padding: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  -webkit-transition: height 0.2s linear;
+  -moz-transition: height 0.2s linear;
+  -o-transition: height 0.2s linear;
+  transition: height 0.2s linear;
+}
+#portfolio .slider .content-slider li a:hover .overlay {
+  height: 168px;
+  padding: 5px;
+}
+#portfolio .slider .content-slider h3 {
+  margin: 0;
+  padding: 70px 0;
+}

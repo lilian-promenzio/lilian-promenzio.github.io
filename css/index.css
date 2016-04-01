@@ -1,0 +1,273 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+/*
+*
+*	NAVBAR
+*
+*/
+.navbar {
+  font-weight: bold;
+}
+/*
+*
+*	PAGE STRUCTURE
+*
+*/
+.slide {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  padding: 60px 5px 30px;
+}
+.slide#main {
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  background: url(/assets/img/background.jpg) center no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.slide#main .title {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -lh-property: 0;
+height:-webkit-calc(100% - 200px);
+height:-moz-calc(100% - 200px);
+height:calc(100% - 200px);
+;
+  font-size: 120px;
+}
+.slide#main .subtitle {
+  height: 100px;
+}
+.slide#main .subtitle .name {
+  font-size: 40px;
+}
+.slide#main .subtitle .descr {
+  font-size: 20px;
+}
+.slide#main .start-btn {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+  border-radius: 50%;
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+.slide#main .start-btn:hover {
+  zoom: 1;
+  filter: alpha(opacity=100);
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.slide#main .start-btn img {
+  width: 60px;
+  height: 60px;
+}
+.slide#portfolio {
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #222;
+}
+.slide#portfolio h3 {
+  text-align: center;
+  color: #fff;
+}
+.slide#about {
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 500px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  text-align: left;
+}
+.slide#about .content {
+  max-width: 800px;
+}
+.slide#about .content a {
+  text-decoration: none;
+}
+.slide#about .content .rowDescr {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.slide#about .content .profile-img {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: url(/assets/img/profile.jpg) center no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0 0 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0 0 10px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0 0 10px 0px rgba(50, 50, 50, 0.75);
+}
+.slide#about .content .descr {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slide#about .content .rowSkills {
+  margin-top: 20px;
+}
+.slide#about .content .rowSkills .skillsTitle {
+  height: 260px;
+  line-height: 260px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.slide#about .content .rowSkills .skills {
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 15px 10px;
+  font-size: 14px;
+}
+.slide#about .content .rowSkills .skills .icon {
+  width: 48px;
+  vertical-align: middle;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+.slide#about .content .rowSkills .skills .icon:hover,
+.slide#about .content .rowSkills .skills .icon:active {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.slide#contact {
+  height: 200px;
+  text-align: center;
+  background-color: #f90;
+}
+.slide#contact a {
+  color: #fff;
+  font-weight: bold;
+}
+.slide#contact a.social {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+.slide#contact a.social:hover,
+.slide#contact a.social:active {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+/* Extra-small devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  #portfolio {
+    height: 100vh;
+  }
+  #about .content .rowSkills .skills {
+    text-align: center;
+  }
+  #about .content .rowSkills .skills .icon {
+    margin-right: 0;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #portfolio {
+    height: 480px;
+  }
+  #about .content .rowSkills .skills .icon {
+    margin-right: 10px;
+  }
+}
