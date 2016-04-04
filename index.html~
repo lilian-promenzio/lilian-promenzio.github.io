@@ -11,6 +11,16 @@
 		<link href="vendor/lightslider/dist/css/lightslider.min.css" rel='stylesheet' type='text/css' />
 		<link href="css/index.css" rel="stylesheet"/>
 		<link href="css/slider.css" rel="stylesheet"/>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-75935001-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</head> 
 	<body>
 		
@@ -62,7 +72,7 @@
 							<ul id="content-slider" class="content-slider cs-hidden">
 								<li>
 									<a target="_blank" href="http://www.hellouniverse.com.br">
-										<img src="assets/img/thumbs/hellou.png" alt="HelloUniverse" />
+										<img src="assets/img/thumbs/hellou.jpg" alt="HelloUniverse" />
 										<div class="overlay">
 											<h4><b>HelloUniverse</b></h4>
 										</div>
@@ -70,7 +80,7 @@
 								</li>
 								<li>
 									<a target="_blank" href="http://paysession.com.br/">
-										<img src="assets/img/thumbs/paysession.png" alt="PaySession" />
+										<img src="assets/img/thumbs/paysession.jpg" alt="PaySession" />
 										<div class="overlay">
 											<h4><b>PaySession</b></h4>
 										</div>
@@ -78,7 +88,7 @@
 								</li>
 								<li>
 									<a target="_blank" href="http://www.honest.com.br">
-										<img src="assets/img/thumbs/honest.png" alt="Honest - Consultoria Empresarial" />
+										<img src="assets/img/thumbs/honest.jpg" alt="Honest - Consultoria Empresarial" />
 										<div class="overlay">
 											<h4><b>Honest - Consultoria Empresarial</b></h4>
 										</div>
@@ -86,7 +96,7 @@
 								</li>
 								<li>
 									<a target="_blank" href="http://www.aricanduva.com.br/">
-										<img src="assets/img/thumbs/aricanduva.png" alt="Shopping Aricanduva" />
+										<img src="assets/img/thumbs/aricanduva.jpg" alt="Shopping Aricanduva" />
 										<div class="overlay">
 											<h4><b>Shopping Aricanduva</b></h4>
 										</div>
@@ -94,7 +104,7 @@
 								</li>
 								<li>
 									<a target="_blank" href="http://www.interlagos.com.br/">
-										<img src="assets/img/thumbs/interlagos.png" alt="Shopping Interlagos" />
+										<img src="assets/img/thumbs/interlagos.jpg" alt="Shopping Interlagos" />
 										<div class="overlay">
 											<h4><b>Shopping Interlagos</b></h4>
 										</div>
@@ -102,7 +112,7 @@
 								</li>
 								<li>
 									<a target="_blank" href="http://www.centralplazashopping.com.br/">
-										<img src="assets/img/thumbs/centralplaza.png" alt="Central Plaza Shopping" />
+										<img src="assets/img/thumbs/centralplaza.jpg" alt="Central Plaza Shopping" />
 										<div class="overlay">
 											<h4><b>Central Plaza Shopping</b></h4>
 										</div>
@@ -110,7 +120,7 @@
 								</li>
 								<li>
 									<a target="_blank" href="http://www.novoshopping.com.br/">
-										<img src="assets/img/thumbs/novoshopping.png" alt="Novo Shopping Center Ribeirão Preto" />
+										<img src="assets/img/thumbs/novoshopping.jpg" alt="Novo Shopping Center Ribeirão Preto" />
 										<div class="overlay">
 											<h4><b>Novo Shopping Center Ribeirão Preto</b></h4>
 										</div>
@@ -118,7 +128,7 @@
 								</li>
 								<li>
 									<a target="_blank" href="http://www.geomotors.com.br/r">
-										<img src="assets/img/thumbs/geomotors.png" alt="Geomotors" />
+										<img src="assets/img/thumbs/geomotors.jpg" alt="Geomotors" />
 										<div class="overlay">
 											<h4><b>Geomotors</b></h4>
 										</div>
@@ -133,16 +143,22 @@
 				<div class="content">
 					<div class="hidden-sm hidden-md hidden-lg row">
 						<div class="col-xs-12 col-sm-3 text-center">
-							<div class="profile-img">&nbsp;</div>
+							<div class="profile-img animateme"
+								data-from="0.5"
+								data-to="0"
+								data-opacity="0"
+								data-translatex="-800"
+								data-rotatex="-90"
+								data-rotatey="90"
+								data-rotatez="-90"
+								data-easing="easeout"
+								>&nbsp;</div>
 						</div>
 						<br />&nbsp;
 						<div class="col-xs-12 col-sm-9 rowDescr">
 							<div class="descr text-center">
 								<p>
 									Sou Lilian Promenzio, resido em São Paulo, sou graduanda em Jogos Digitais e atuo profissionalmente como desenvolvedora front-end há 4 anos.
-								</p>
-								<p>
-									Com minha experiência nos últimos projetos
 								</p>
 							</div>
 						</div>					

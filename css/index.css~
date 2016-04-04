@@ -90,6 +90,7 @@ min-height: 100px;
   display: inline-block;
   width: 60px;
   height: 60px;
+  margin-top: 50px;
   border-radius: 50%;
   zoom: 1;
   filter: alpha(opacity=50);
